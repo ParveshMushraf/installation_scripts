@@ -11,7 +11,7 @@ sudo apt update && apt -y install docker.io
 
 sudo systemctl start docker
 sudo systemctl enable docker
-sudo chmod 666 /var/run/docker.sock
+sudo chmod 777 /var/run/docker.sock
 
 echo "Apply updates"
 sudo apt update -y 
